@@ -1,0 +1,36 @@
+.view, body, html{
+	height:100%;
+}
+
+.navbar{
+	/*background-color:rgba(0,0,0,.2);*/
+	box-shadow: none;
+}
+
+.page-footer, .top-nav-collapse{
+	background-color:#1C2331;
+}
+
+.feature {
+
+}
+
+.team {
+
+}
+
+/**/
+
+@media only screen and (max-width:768px) {
+	.navbar{
+		background-color:#1C2331;
+	}
+
+	.welcome-text {
+		font-size: 40px;
+	}
+
+	.conatct-image {
+		width: 200px;
+	}
+}
